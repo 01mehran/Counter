@@ -17,7 +17,7 @@ resetBtn.addEventListener("click", () => {
 decreaseBtn.addEventListener("click", () => {
   counter--;
   if (counter < 0) {
-    alert("no");
+    alert("Please Increase the number");
     counter = 0;
   }
   count.innerHTML = counter < 10 ? "0" + counter : counter;
